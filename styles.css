@@ -1,0 +1,190 @@
+/* estilos generales */
+
+/* seccion nav */
+.img-fondo {
+    background-image: url('img/edificio-hd.jpeg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh; 
+    position: relative;
+}
+
+.navbar {
+    padding: 2rem;
+    position: absolute; 
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.navbar-toggler {
+    border: none;
+    background-color: #41959f;
+}
+
+.navbar-toggler-icon {
+    color: white;
+}
+
+.navbar-collapse {
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar-brand:hover {
+    filter: drop-shadow(0 0 10px #07060b);
+}
+
+.nav-item:hover {
+    background-color: #41959f;
+    border-radius: 30px;
+}
+
+/* Main contenido Principal (CARTAS)*/
+
+.img-card {
+    height: 380px;
+    object-fit: cover;
+}
+
+.card-1 {
+    position: relative;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.card-1:hover .overlay {
+    opacity: 1;
+}
+
+/* Quienes Somos */
+.fondo-titulo {
+    background-color: #41959f;
+    border-radius: 30px;
+}
+
+.fondo-titulo:hover {
+    filter: drop-shadow(0 0 10px #205867);
+}
+
+/* Reseñas */
+.reseñas { 
+    background-color: #ffffff; 
+    padding: 20px; 
+    border-radius: 10px; 
+    margin-bottom: 20px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    border: 1px solid #e0e0e0;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+} 
+      
+.reseñas:hover { 
+    transform: translateY(-5px); 
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); 
+   
+}
+
+.reseñas p { 
+    font-size: 1rem;
+    line-height: 1.5; 
+} 
+
+.reseñas .font-weight-bold {
+     font-size: 1.1rem; 
+} 
+
+
+/* media queries */
+@media (max-width: 767px) {
+    .card {
+        margin-top: 15px;
+    }
+}
+
+@media (max-width: 600px) {
+    .navbar-nav {
+        font-size: 15px;
+    }
+    .navbar-brand img {
+        width: 50px;
+    }
+    .navbar-nav {
+        flex-direction: column;
+        margin-top: 10px;
+    }
+    .navbar-toggler {
+        display: block;
+    }
+    .navbar-collapse {
+        display: none;
+        flex-direction: column;
+    }
+    .navbar-collapse.show {
+        display: flex;
+    }
+}
+
+@media (max-width: 500px) {
+   .quienes-somos-link{
+    display: none !important;
+   }
+}
+
+@media (max-width: 600px) {
+    .icon-1 {
+        font-size: 12px;
+    }
+    .copy {
+        font-size: 10px;
+    }
+    
+}
+
+@media (max-width: 600px) {
+    .navbar-nav .nav-link {
+        background-color: #f8f9fa; 
+        border-radius: 10px;
+        margin-right: 4px;
+        padding: 10px; 
+        transition: background-color 0.3s ease, color 0.3s ease; 
+    }
+
+    .navbar-nav .nav-link:hover {
+        background-color: #e9ecef; 
+        color: #000; 
+    }
+}
+
+
+/* Footer */
+.footer-1 {
+    background-color: #205867;
+}
+
+.copy {
+    color: white;
+}
+
+.icon-1{
+    color: #07060b;
+    text-decoration: none;
+}
+
+.icon-1:hover {
+    filter: drop-shadow(0 0 5px #ffffff);
+}
