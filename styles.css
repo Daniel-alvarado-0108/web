@@ -1,0 +1,17 @@
+.button-move {
+    position: relative;
+    transition: all 0.3s ease;
+}
+
+.button-small {
+    padding: 0.5rem 1rem; /* Tamaño reducido */
+    font-size: 0.875rem;  /* Fuente más pequeña */
+}
+
+.imgnovios {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+    max-height: 200px; /* Aumentamos el tamaño máximo de la altura */
+}
