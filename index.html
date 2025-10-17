@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <!--Metadatos-->
+    <meta charset="UTF-8">
+    <meta name="author" content="Daniel Alvarado">
+    <meta name="description" content="Pagina estilo DirectStay">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Título-->
+    <title>Mi Página Web</title>
+    <!--Links-->
+    <!--CSS-->
+    <link rel="stylesheet" href="styles.css">
+    <!--Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!--Animaciones-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <!-- Icono pagina web-->
+    <link rel="icon" type="image/x-icon" href="img/favicon.ico">
+
+</head>
+
+<body>
+    
+    <header data-aos="fade-down" data-aos-duration="1400">
+        <div class="img-fondo">
+            <nav class="navbar navbar-expand navbar-blur">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="index.html">
+                        <img src="img/logo-principal.png" width="80" alt="Logo de La Pagina Web">
+                    </a>
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active fw-bold" aria-current="page" href="https://www.airbnb.co.ve/users/show/478457017" target="_blank">Inmuebles</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active fw-bold quienes-somos-link" href="#quienes-somos">Quienes somos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active fw-bold" href="https://www.airbnb.co.ve/rooms/710246336765271683?adults=1&search_mode=regular_search&check_in=2025-01-26&check_out=2025-02-17&source_impression_id=p3_1736556003_P3E0Q5U1JnwfgdVl&previous_page_section_name=1000&federated_search_id=a375dc6b-fa0e-4c55-8a8d-41a875b85f50" target="_blank">Reservar</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active fw-bold" href="contacto.html">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!--Contenido Principal-->
+    <main class="mt-5">
+        <section class="contenido-principal">
+            <div class="container">
+                <div class="row" data-aos="fade-right" data-aos-duration="1300">
+                    
+                    <!-- Primera fila: 3 tarjetas -->
+                    <!--Carta 1-->
+                    <div class="col-md-4">
+                        <div class="card">
+                            <div class="card-1">
+                                <img src="img/balcon.jpeg" class="card-img-top img-card" alt="...">
+                                <a href="https://www.airbnb.co.ve/rooms/710246336765271683" target="_blank" class="overlay"> Ver Inmueble </a>
+                            </div>
+                            <div class="card-body text-center">
+                                <h5 class="card-title">Suite de Lujo con Piscina y Ubicación Estratégica</h5>
+                                <div class="card-text">
+                                    <span class="badge text-bg-success">2 Huéspedes</span>
+                                    <span class="badge text-bg-success">2 Camas</span>
+                                    <span class="badge text-bg-success">1 Baño</span>
+                                </div>
+                                <div class="card-text">
+                                    <span class="badge text-bg-primary">Wifi Fibra Óptica</span>
+                                    <span class="badge text-bg-primary">Smart-tv 43″</span>
+                                    <span class="badge text-bg-primary">UPS wifi</span>
+                                    <span class="badge text-bg-primary">Balcón</span>
+                                </div>
+                
+                                <a href="https://www.airbnb.co.ve/rooms/710246336765271683" target="_blank" class="btn btn-dark mt-3">Reservar</a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!--Carta 2-->
+                    <div class="col-md-4">
+                        <div class="card">
+                            <div class="card-1">
+                                <img src="img/piso7.jpeg" class="card-img-top img-card" alt="...">
+                                <a href="https://www.airbnb.co.ve/rooms/1100597174169369269" target="_blank" class="overlay"> Ver Inmueble </a>
+                            </div>
+                            <div class="card-body text-center">
+                                <h5 class="card-title">Apartamento con Piscina y WiFi Ultra-rápido</h5>
+                                <div class="card-text">
+                                    <span class="badge text-bg-success">2 Huéspedes</span>
+                                    <span class="badge text-bg-success">1 Cama</span>
+                                    <span class="badge text-bg-success">1 Baño</span>
+                                </div>
+                                <div class="card-text">
+                                    <span class="badge text-bg-primary">Wifi Fibra Óptica</span>
+                                    <span class="badge text-bg-primary">Smart-tv 43″</span>
+                                    <span class="badge text-bg-primary">UPS wifi</span>
+                                    <span class="badge text-bg-primary">Balcón</span>
+                                </div>
+                                <a href="https://www.airbnb.co.ve/rooms/1100597174169369269" target="_blank" class="btn btn-dark mt-3">Reservar</a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!--Carta 3-->
+                    <div class="col-md-4">
+                        <div class="card">
+                            <div class="card-1">
+                                <img src="img/cocina-diagonal.jpeg" class="card-img-top img-card" alt="...">
+                                <a href="https://www.airbnb.co.ve/rooms/1112187770668035062" target="_blank" class="overlay"> Ver Inmueble </a>
+                            </div>
+                            <div class="card-body text-center">
+                                <h5 class="card-title">Apartamento Moderno con Piscina y Conectividad Veloz</h5>
+                                <div class="card-text">
+                                    <span class="badge text-bg-success">2 Huéspedes</span>
+                                    <span class="badge text-bg-success">2 Camas</span>
+                                    <span class="badge text-bg-success">1 Baño</span>
+                                </div>
+                                <div class="card-text">
+                                    <span class="badge text-bg-primary">Wifi Fibra Óptica</span>
+                                    <span class="badge text-bg-primary">Smart-tv 43″</span>
+                                    <span class="badge text-bg-primary">UPS wifi</span>
+                                    <span class="badge text-bg-primary">Balcón</span>
+                                </div>
+                                <a href="https://www.airbnb.co.ve/rooms/1112187770668035062" target="_blank" class="btn btn-dark mt-3">Reservar</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    
+                <!-- Segunda fila: 2 tarjetas -->
+                <!--Carta 4-->
+                <div class="row mt-3" data-aos="fade-right" data-aos-duration="1300">
+                    <div class="col-md-6">
+                        <div class="card">
+                            <div class="card-1">
+                                <img src="img/piso11.jpeg" class="card-img-top img-card" alt="...">
+                                <a href="https://www.airbnb.co.ve/rooms/1123456789012345678" target="_blank" class="overlay"> Ver Inmueble </a>
+                            </div>
+                            <div class="card-body text-center">
+                                <h5 class="card-title">Esencia Exclusiva: Apartamento con Piscina y Estilo</h5>
+                                <div class="card-text">
+                                    <span class="badge text-bg-success">2 Huéspedes</span>
+                                    <span class="badge text-bg-success">2 Camas</span>
+                                    <span class="badge text-bg-success">1 Baño</span>
+                                </div>
+                                <div class="card-text">
+                                    <span class="badge text-bg-primary">Wifi Fibra Óptica</span>
+                                    <span class="badge text-bg-primary">Smart-tv 43″</span>
+                                    <span class="badge text-bg-primary">UPS wifi</span>
+                                    <span class="badge text-bg-primary">Balcón</span>
+                                </div>
+                                <a href="https://www.airbnb.co.ve/rooms/1123456789012345678" target="_blank" class="btn btn-dark mt-3">Reservar</a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!--Carta 5-->
+                    <div class="col-md-6">
+                        <div class="card">
+                            <div class="card-1">
+                                <img src="img/piso12.jpeg" class="card-img-top img-card" alt="...">
+                                <a href="https://www.airbnb.co.ve/rooms/1234567890123456789" target="_blank" class="overlay"> Ver Inmueble </a>
+                            </div>
+                            <div class="card-body text-center">
+                                <h5 class="card-title">Escapada Céntrica con Piscina y Diseño Acogedor</h5>
+                                <div class="card-text">
+                                    <span class="badge text-bg-success">2 Huéspedes</span>
+                                    <span class="badge text-bg-success">1 Cama</span>
+                                    <span class="badge text-bg-success">1 Baño</span>
+                                </div>
+                                <div class="card-text">
+                                    <span class="badge text-bg-primary">Wifi Fibra Óptica</span>
+                                    <span class="badge text-bg-primary">Smart-tv 43″</span>
+                                    <span class="badge text-bg-primary">UPS wifi</span>
+                                    <span class="badge text-bg-primary">Balcón</span>
+                                </div>
+                                <a href="https://www.airbnb.co.ve/rooms/1234567890123456789" target="_blank" class="btn btn-dark mt-3">Reservar</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Quienes Somos -->
+    <section class="mt-5" id="quienes-somos" data-aos="fade-right" data-aos-duration="1200">
+        <div class="container">
+            <div class="row d-flex justify-content-center">
+                
+                <!-- Sección: Quienes Somos -->
+                <div class="somos-hijo col-md-5 p-3 mb-4">
+                    <div class="fondo-titulo">
+                        <h3 class="text-center">Quienes Somos</h3>
+                    </div>
+                    <div class="somos-texto mt-4">
+                        <h5 class="parrafo-1 text-center fw-bold">
+                            ¡Bienvenidos a nuestro servicio de alquileres diarios de inmuebles!
+                        </h5>
+                        <p class="parrafo-2 text-center">
+                            Nos emociona ofrecerles una selección de propiedades excepcionales para satisfacer sus necesidades de alojamiento. 
+                            Ya sea que estén planificando unas vacaciones, una escapada de fin de semana o un viaje de negocios, 
+                            tenemos la propiedad ideal para ustedes. Nuestras propiedades están cuidadosamente seleccionadas y 
+                            están disponibles en las plataformas más confiables como Airbnb y Estei App.
+                        </p>
+                        <p class="text-center">
+                            Disfrute de la comodidad y la elegancia que ofrecemos en cada uno de nuestros espacios. 
+                            Cada inmueble está equipado con una moderna cocina, un lavandero funcional, una acogedora sala de estar, 
+                            una habitación confortable y un baño impecable. Manténgase conectado con nuestro servicio de Wi-Fi de fibra óptica.
+                        </p>
+                        <p class="text-center">
+                            Pero eso no es todo. Nuestro edificio cuenta con excelentes instalaciones que elevan aún más su experiencia:
+                        </p>
+                        <ul class="text-center">
+                            <li>Gimnasio.</li>
+                            <li>Caney recreativo para disfrutar de momentos de esparcimiento y socialización.</li>
+                            <li>Piscina perfecta para relajarse y refrescarse en un ambiente tranquilo.</li>
+                            <li>Vigilancia privada las 24 horas para garantizar su seguridad y tranquilidad.</li>
+                            <li>Planta eléctrica que asegura un suministro constante de energía en un 50%.</li>
+                            <li>Estacionamiento privado para su comodidad y seguridad.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-md-1"></div>
+
+                <!-- Sección: Reseñas -->
+                <div class="somos-hijo col-md-5 p-3 mb-4">
+                    <div class="fondo-titulo">
+                        <h3 class="text-center">Reseñas</h3>
+                    </div>
+                    <div class="somos-reseñas mt-4">
+                        <div class="row">
+                            
+                            <!-- Reseñas visibles -->
+                            <div class="col-md-6 mb-4">
+                                <div class="reseñas">
+                                    <p class="text-muted"><em>"Excelente alojamiento, súper ordenado y limpio, buena ubicación, zona bonita, la cama y colchón 5 estrellas. Muy buen anfitrión."</em></p> 
+                                    <p class="font-weight-bold text-right">- Argenis Alfredo</p> 
+                                </div>
+                            </div>
+
+                            <div class="col-md-6 mb-4">
+                                <div class="reseñas">
+                                    <p class="text-muted"><em>"Bastante cómodo, es un área con ambiente bastante fresco, la piscina es perfecta, con un centro comercial, cine, supermercado cerca. ¡Me quedaría de nuevo sin duda!"</em></p> 
+                                    <p class="font-weight-bold text-right">- Oswaldo</p> 
+                                </div>
+                            </div>
+
+                            <div class="col-md-6 mb-4">
+                                <div class="reseñas">
+                                    <p class="text-muted"><em>"Todo fue perfecto, tanto el alojamiento como Daniel fue una persona muy servicial."</em></p> 
+                                    <p class="font-weight-bold text-right">- Fabrizio</p> 
+                                </div>
+                            </div>
+
+                            <div class="col-md-6 mb-4">
+                                <div class="reseñas">
+                                    <p class="text-muted"><em>"Súper!! Volvería siempre! El lugar es súper cómodo, tiene una vista muy bella, buen servicio de internet!"</em></p> 
+                                    <p class="font-weight-bold text-right">- María Elisa</p> 
+                                </div> 
+                            </div>
+                        </div>
+
+                        <!-- Reseñas ocultas -->
+                        <div id="extra-reseñas" class="d-none">
+                            <div class="row">
+                                <div class="col-md-6 mb-4">
+                                    <div class="reseñas">
+                                        <p class="text-muted"><em>"Excelente alojamiento, muy limpio y ordenado. Lo recomiendo sin dudas."</em></p> 
+                                        <p class="font-weight-bold text-right">- Juan Pérez</p> 
+                                    </div> 
+                                </div> 
+
+                                <div class="col-md-6 mb-4">
+                                    <div class="reseñas">
+                                        <p class="text-muted"><em>"Lugar increíble, muy tranquilo y cómodo. Volveré pronto!"</em></p> 
+                                        <p class="font-weight-bold text-right">- Carolina Fernández</p> 
+                                    </div> 
+                                </div> 
+                            </div>
+                        </div>
+
+                        <!-- Botón para mostrar más reseñas -->
+                        <button id="ver-mas-btn" class="btn btn-primary mt-3">Leer más reseñas</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    
+   
+
+    <!-- Footer -->
+    <footer class="py-4 mt-5 footer-1">
+        <div class="container d-flex justify-content-between align-items-center">
+            <div class="footer-icons">
+                <a href="https://www.airbnb.co.ve/users/show/478457017" target="_blank" class="icon-1">
+                    <img src="img/airbnb.png" alt="Logo de Airbnb" width="20" class="me-1">
+                </a>
+                <a href="https://estei.app/stay/17362561022655135819/profile?guests=2&arrival_date=2025-01-31&departure_date=2025-02-03" target="_blank" class="icon-1">
+                    <img src="img/estei-logo.png" alt="logo de Estei app" width="20" class="me-1">
+                </a>
+                <a href="https://wa.me/04145816377" target="_blank" class="icon-1">
+                    <img src="img/whatsapp.png" alt="logo de WhatsApp" width="23" class="me-1">
+                </a>
+                <a href="mailto: ing.danielalvarado@gmail.com" target="_blank" class="icon-1">
+                    <img src="img/gmail.png" alt="logo de Gmail" width="23">
+                </a>
+            </div>
+            <div class="copy">
+                &copy; 2025 Todos los derechos reservados
+            </div>
+        </div>
+    </footer>
+    
+    
+    
+    <!--Scripts-->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script> 
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script> 
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!--Script de AOS-->
+    <script>
+    AOS.init();
+    </script>
+    <!--Script de las reseñas-->
+    <script>
+        document.getElementById("ver-mas-btn").addEventListener("click", function() {
+            let extraResenas = document.getElementById("extra-reseñas");
+
+            
+            if (extraResenas.classList.contains("d-none")) {
+                extraResenas.classList.remove("d-none"); 
+                this.textContent = "Leer menos reseñas"; 
+            } else {
+                extraResenas.classList.add("d-none");
+                this.textContent = "Leer más reseñas";
+            }
+        });
+
+    </script>
+
+
+
+
+</body>
+</html>
